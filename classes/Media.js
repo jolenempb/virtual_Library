@@ -11,9 +11,9 @@ class Media {
     }
 }
 
-const book = new Media("Oliver Twist", "Nostalgia", 1870)
+const book = new Media("Oliver Twist", "Nostalgia", 1870);
 Media.totalMediaCount;
-console.log(book.totalMediaCount);
+console.log(book);
 
 // uncomment below to export it:
 module.exports = Media;
